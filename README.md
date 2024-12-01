@@ -31,3 +31,13 @@ fine_tuning.ipynb  # Script to get fine-tuned model
 demo.ipynb # Proxy tuning and Gradio display
 README.md # Project documentation
 ```
+## Resource Links
+- "Tuning Language Models by Proxy": https://arxiv.org/abs/2401.08565
+- Repo about proxy-tuning: https://github.com/gwendolynthompson/proxy-tuning
+- Original repo about proxy-tuning: https://github.com/alisawuffles/proxy-tuning
+- "The Power of Proxy Data and Proxy Networks for Hyper-Parameter Optimization": https://arxiv.org/abs/2107.05471
+- "Improve LLMs With Proxy Tuning" https://lightning.ai/lightning-ai/studios/improve-llms-with-proxy-tuning
+- "LoFT: Local Proxy Fine-tuning Improves Transferability to Large Language Model Attacks" https://openreview.net/forum?id=3ucOvX8WVu
+- "CPT: Consistent Proxy Tuning for Black-box Optimization" https://www.researchgate.net/publication/381885086_CPT_Consistent_Proxy_Tuning_for_Black-box_Optimization
+- Conversation on Reddit about the paper: https://www.reddit.com/r/LocalLLaMA/comments/19dg8pk/new_paper_proxytuning_an_efficient_alternative_to/
+
