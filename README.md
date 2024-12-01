@@ -28,5 +28,6 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 /data/ # Datasets used
 /fine_tuned_model/  # Pretrained and fine-tuned model
 fine_tuning.ipynb  # Script to get fine-tuned model
-demo.ipynb # Proxy tuning and Gradio display 
+demo.ipynb # Proxy tuning and Gradio display
+README.md # Project documentation
 ```
