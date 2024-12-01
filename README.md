@@ -24,9 +24,9 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 - **Models:** Models are used under their respective Hugging Face licenses.
 
 ## Code Structure
-'''
+```
 /data/ # Datasets used
 /fine_tuned_model/  # Pretrained and fine-tuned model
 fine_tuning.ipynb  # Script to get fine-tuned model
 demo.ipynb # Proxy tuning and Gradio display 
-'''
+```
