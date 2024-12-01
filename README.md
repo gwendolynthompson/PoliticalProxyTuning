@@ -11,6 +11,12 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 2. Guide larger model's predictions during run time.
 3. Answer questions about the 2024 election.
 
+## Critical Analysis
+#### What are the next steps?
+1. Improved data set and fine-tuning.
+2. Refine the Gradio demo to make it more accessible and user friendly.
+3. Scaling up by using larger models such as GPT3 or GPT4.
+
 # Model Card
 ## Uses
 - Fine-tuning language models to answer domain-specific questions about election data.
