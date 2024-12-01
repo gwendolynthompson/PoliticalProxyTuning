@@ -13,7 +13,7 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 
 # Model Card
 ## Uses
-- FIne-tuning language models to answer domain-specific questions about election data.
+- Fine-tuning language models to answer domain-specific questions about election data.
 - Steering larger language models with proxy-tuning techniques for better reponses.
 - Research into fine-tuning and decoding methods
 ## Sources
@@ -24,7 +24,9 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 - **Models:** Models are used under their respective Hugging Face licenses.
 
 ## Code Structure
+'''
 /data/ # Datasets used
 /fine_tuned_model/  # Pretrained and fine-tuned model
 fine_tuning.ipynb  # Script to get fine-tuned model
-demo.ipynb # Proxy tuning and Gradio display
+demo.ipynb # Proxy tuning and Gradio display 
+'''
