@@ -1,4 +1,4 @@
-# Proxy Tuning GPT2 with political data 
+# Proxy Tuning GPT-2 with political data 
 
 ## Overview
 This repository shows an implementation of proxy-tuning for language models, inspired by the concept outlined in **Tuning Language Models by Proxy**. This project focuses on proxy-tuning GPT2 with data from the 2024 election. 
