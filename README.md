@@ -11,7 +11,18 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 2. Guide larger model's predictions during run time.
 3. Answer questions about the 2024 election.
 
+## Methodology
+1. M: pretrained GPT-2 model
+2. M-: pretrained, untuned distilGPT-2 with same vocabulary as M
+3. M+: M-, after fine-tuning on 2024 election data
+4. α: Control term to manage how much influence smaller model has on M
+![Screenshot 2024-12-02 at 10 11 00 AM](https://github.com/user-attachments/assets/1461c73d-e504-4c2d-a390-131b5944239e)
+
+
 ## Critical Analysis
+### Limitations 
+1. Lack of data about 2024 election.
+2. Computing resources to fine tune the expert model.
 #### What are the next steps?
 1. Improved data set and fine-tuning.
 2. Refine the Gradio demo to make it more accessible and user friendly.
