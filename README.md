@@ -3,15 +3,15 @@
 ## Overview
 This repository shows an implementation of proxy-tuning for language models, inspired by the concept outlined in **Tuning Language Models by Proxy**. This project focuses on proxy-tuning GPT2 with data from the 2024 election. 
 
-## What is proxy-tuning?
+### What is proxy-tuning?
 A technique for guiding large language models by leveraging smaller fine-tuned models as "experts" and untuned versions as "anti-experts". The difference in logits between the two smaller models guides the output of the larger language model. 
 
-## Project Goals
+### Project Goals
 1. Fine-tune a smaller model.
 2. Guide larger model's predictions during run time.
 3. Answer questions about the 2024 election.
 
-## Methodology
+### Methodology
 1. M: pretrained GPT-2 model
 2. M-: pretrained, untuned distilGPT-2 with same vocabulary as M
 3. M+: M-, after fine-tuning on 2024 election data
