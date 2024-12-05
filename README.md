@@ -34,7 +34,7 @@ A technique for guiding large language models by leveraging smaller fine-tuned m
 - Steering larger language models with proxy-tuning techniques for better reponses.
 - Research into fine-tuning and decoding methods
 ## Sources
-- **Data:** https://github.com/fivethirtyeight/data/tree/master/polls
+- **Data:** https://github.com/fivethirtyeight/data/tree/master/polls, modified into question/answer pairs using ChatGPT.
 - **Code:** Developed using the Hugging Face transformers library and inspired from the Tuning Language Models by Proxy paper
 - **Models:** Fine tuned diltilGPT2 and guided larger model GPT2.
 ## Permissions
